@@ -1,9 +1,9 @@
-import "./App.css";
+import React from "react";
+import "./style.css";
 import Header from "./components/Header";
 import Meme from "./components/Meme";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header />
@@ -12,4 +12,18 @@ function App() {
   );
 }
 
-export default App;
+// import "./style.css";
+// import Header from "./components/Header";
+// import Meme from "./components/Meme";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+// function App() {
+//   return (
+//     <div>
+//       <Header />
+//       <Meme />
+//     </div>
+//   );
+// }
+
+// export default App;
